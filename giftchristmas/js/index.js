@@ -13,7 +13,7 @@ document.getElementById("login-button").addEventListener("click", function(event
 
         // Sau 2.5 giây chuyển hướng đến trang khác
         setTimeout(function() {
-            location.href = "christmastree.html"; 
+            location.href = "/html/christmastree.html"; 
         }, 2500); 
     } else {
         var modal = document.querySelector(".modal");
