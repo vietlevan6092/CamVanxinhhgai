@@ -5,7 +5,7 @@ document.getElementById("login-button").addEventListener("click", function(event
     var password = document.getElementById("password").value;
 
     // Kiểm tra tài khoản và mật khẩu
-    if (username === "CamVan" && password === "2104") {
+    if (username === "12356" && password === "7827") {
         $("form").fadeOut(500); // Ẩn form
         setTimeout(function() {
             $(".wrapper").addClass("form-success"); 
